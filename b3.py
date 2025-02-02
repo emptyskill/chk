@@ -237,7 +237,7 @@ for y in y:
         'accept-language': 'en-US,en;q=0.9,bn;q=0.8',
         'cache-control': 'max-age=0',
         'content-type': 'application/x-www-form-urlencoded',
-        'origin': 'https://www.studynotesaba.com',
+        'origin': 'https://www.littleforbig.com',
         'priority': 'u=0, i',
         'referer': 'https://www.littleforbig.com/my-account/add-payment-method/',
         'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
