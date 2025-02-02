@@ -152,7 +152,7 @@ for y in y:
     bin_code = c[:6]
     if "20" in yy:
         yy = yy.split("20")[1]
-    acc = ['view99812@gmail.com', 'dragonfight001@gmail.com', 'dragonfight002@gmail.com', 'dragonfight003@gmail.com', 'dragonfight004@gmail.com', 'dragonfight005@gmail.com', 'dragonfight006@gmail.com', 'bincryrid@hamham.uk', 'dipflypar@kksm.be', 'duecapas545@choco.la', 'rag481@kmail.li', 'jotdrpry@mirai.re', 'dinmapis@instmail.uk', 'maddubits@sendapp.uk', 'dragontech177@gmail.com', 'himhas407@send4.uk', 'nadiya001@exdonuts.com', 'zipmobsir750@exdonuts.com', 'figlaxno@exdonuts.com', 'cryournet@kksm.be', 'dewask760@send4.uk']
+    acc = ['view99812@gmail.com']
     email = random.choice(acc)
     print(F) 
     user = user_agent.generate_user_agent()
